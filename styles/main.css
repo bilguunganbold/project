@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+#banner {
+  background-image: url("../images/base.png");
+  height: 496px;
+}
+#meal1 {
+  position: absolute;
+  z-index: 1;
+}
+#meal {
+  position: absolute;
+  z-index: 2;
+  margin-left: 145px;
+  margin-top: 47px;
+}
+#MStars h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 55px;
+  color: #f17228;
+}
+#MStars {
+  align-items: center;
+  text-align: right;
+}
+#MStars p {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #4d2000;
+}
+#MStars hr {
+  border: 2px solid rgba(241, 114, 40, 0.6);
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+#backgraondd {
+  background: linear-gradient(
+    179.24deg,
+    #f17228 -90.18%,
+    rgba(255, 255, 255, 0) 41.19%
+  );
+  height: 248px;
+}
+.features {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  height: 152px;
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 5px;
+}
+.feature img {
+  background: rgba(255, 215, 191, 0.28);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.fText {
+  margin-left: 10px;
+}
+.feature div p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1d1d1f;
+}
+.feature div p:last-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1d1d1f;
+  opacity: 0.75;
+}
