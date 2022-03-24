@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+  margin-left: 10px;
+  color: #f17228;
+}
+#menu a {
+  text-decoration: none;
+  margin-left: 24px;
+}
+#menuItem,
+#deliveryZone {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+#home {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f17228;
+}
+#menu {
+  width: 384px;
+}
+#basketLogin,
+#basket,
+#login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#basket a,
+#login a {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #f17228;
+}
+#basketLogin {
+  width: 180px;
+  height: 32px;
+}
+#searchBox {
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  border-radius: 10px;
+  width: 235px;
+  height: 32px;
+  border: 1px solid #fbc5a6;
+  box-sizing: border-box;
+}
+#searchBox::placeholder {
+  padding-left: 40px;
+  color: #b5b5b5;
+}
