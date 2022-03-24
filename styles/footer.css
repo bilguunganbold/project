@@ -1,4 +1,25 @@
 .foot {
   background-image: url(../images/footerBack.png);
   height: 384px;
+  display: flex;
+  align-items: flex-start;
+}
+#logo1 {
+  display: flex;
+  padding-top: 24px;
+}
+#foodDelivery1 {
+  padding-left: 10px;
+}
+#menu1 {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  color: #ffffff;
+}
+#menu2 {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
