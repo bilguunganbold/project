@@ -39,7 +39,7 @@
   display: flex;
   justify-content: space-between;
 }
-#backgraondd {
+#backgroundd {
   background: linear-gradient(
     179.24deg,
     #f17228 -90.18%,
@@ -82,4 +82,42 @@
   font-size: 14px;
   color: #1d1d1f;
   opacity: 0.75;
+}
+.saleTitle {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.saleTitle h3 {
+  padding: 10px;
+}
+.section1 {
+  display: flex;
+}
+.card {
+  background: #fefefe;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 16px 0px;
+  margin-left: 24px;
+}
+.saleImage {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.saleImage p {
+  background: #f17228;
+  position: absolute;
+  border-radius: 0px 8px 0px 20px;
+  width: 75px;
+  height: 43px;
+  margin-top: 0;
+  color: #ffffff;
+  font-family: "Poppuns", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* align-items: center; */
+  text-align: center;
 }

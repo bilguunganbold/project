@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-.contents {
+.contents,
+.sale {
   max-width: 1500px;
   margin: auto;
   padding-left: 10px;
