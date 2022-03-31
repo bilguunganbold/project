@@ -1,6 +1,9 @@
-.foot {
+.backgroundds {
   background-image: url(../images/footerBack.png);
   height: 384px;
+  width: 100%;
+}
+.foot {
   display: flex;
   align-items: flex-start;
 }
@@ -12,14 +15,20 @@
   padding-left: 10px;
 }
 #menu1 {
+  padding-top: 24px;
   padding-left: 100px;
   display: flex;
   flex-direction: column;
-  line-height: 24px;
+  /* line-height: 24px; */
   color: #ffffff;
 }
 #menu2 {
+  padding-top: 24px;
   padding-left: 50px;
   display: flex;
   flex-direction: column;
+}
+#menu1 a,
+#menu2 a {
+  line-height: 34px;
 }

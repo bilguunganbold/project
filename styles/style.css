@@ -1,13 +1,9 @@
 * {
   box-sizing: border-box;
 }
-.contents,
-.sale {
+.contents {
   max-width: 1500px;
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.buttons {
 }
